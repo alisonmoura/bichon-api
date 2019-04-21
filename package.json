@@ -1,0 +1,20 @@
+{
+  "name": "bichon-api",
+  "version": "0.0.0",
+  "description": "A API for the Bichon project",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "author": "Alison Moura",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.4.4"
+  }
+}
